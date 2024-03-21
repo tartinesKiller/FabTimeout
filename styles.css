@@ -1,0 +1,41 @@
+.fab-to {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 0;
+}
+
+.fab-to--inner-sticky {
+    position: relative;
+    border-radius: 50%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fab-to--svg {
+    height: 100px;
+    width: 100px;
+    transform: rotate(-90deg);
+}
+
+.fab-to--icon {
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.fab-to--svg-underlay {
+    stroke: #9d776d;
+}
+
+.fab-to--svg-overlay {
+    stroke: #ff0000;
+}
