@@ -32,7 +32,7 @@ export default class FabTimeout {
         }
         iconElt.classList.add("fab-to--icon");
 
-        this.fabToOuter.addEventListener("click", () => this.timeoutElapsedCb());
+        this.fabToInner.addEventListener("click", () => this.timeoutElapsedCb());
 
         this.fabToOuter.appendChild(this.fabToInner);
         this.svgElement = this.genSvg();
